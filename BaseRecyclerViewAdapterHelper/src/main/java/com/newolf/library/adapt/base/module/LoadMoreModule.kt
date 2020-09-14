@@ -6,8 +6,8 @@ import com.newolf.library.adapt.base.BaseQuickAdapter
 import com.newolf.library.adapt.base.listener.LoadMoreListenerImp
 import com.newolf.library.adapt.base.listener.OnLoadMoreListener
 import com.newolf.library.adapt.base.loadmore.BaseLoadMoreView
+import com.newolf.library.adapt.base.loadmore.DefaultLoadMoreView
 import com.newolf.library.adapt.base.loadmore.LoadMoreStatus
-import com.newolf.library.adapt.base.loadmore.SimpleLoadMoreView
 import com.newolf.library.adapt.base.viewholder.BaseViewHolder
 
 /**
@@ -32,7 +32,7 @@ object LoadMoreModuleConfig {
      * 设置全局的LodeMoreView
      */
     @JvmStatic
-    var defLoadMoreView: BaseLoadMoreView = SimpleLoadMoreView()
+    var defLoadMoreView: BaseLoadMoreView = DefaultLoadMoreView()
 }
 
 /**
